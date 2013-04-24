@@ -1,0 +1,10 @@
+---
+layout: default
+title: My Page
+---
+{% for post in site.posts %}
+<section>
+  <h2><a href="{{ site.baseurl }}">{{ post.url }}</a></h2>
+  {{ post.content | markdownify }}
+</section>
+{% endfor %}
