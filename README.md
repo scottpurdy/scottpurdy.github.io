@@ -1,2 +1,0 @@
-scottpurdy.github.io
-====================
